@@ -38,3 +38,5 @@ Team Odyssey
 
 ## 📄 License
 This project is for learning purposes and is open for personal use.
+live demo
+https://dhiyabiju.github.io/Threads/
