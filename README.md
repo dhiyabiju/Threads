@@ -16,6 +16,7 @@ It demonstrates the use of structured HTML and styled layouts using CSS.
 ## 🛠️ Technologies Used
 - HTML5
 - CSS3
+- java script
 
 ## 📂 Project Structure
 ## ▶️ How to Run the Project
@@ -33,7 +34,7 @@ It demonstrates the use of structured HTML and styled layouts using CSS.
 - Project organization
 
 ## 👤 Author
-**Your Name**
+Team Odyssey
 
 ## 📄 License
 This project is for learning purposes and is open for personal use.
