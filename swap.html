@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Swap - Second Story</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-left">
+    <span class="brand">Second Story</span>
+  </div>
+
+  <ul class="nav-center">
+    <li><a href="index.html">Sustainable Fashion</a></li>
+    <li><a href="swap.html" class="active">Swap</a></li>
+    <li><a href="resell.html">Resell</a></li>
+    <li>Upcycle</li>
+  </ul>
+
+  <div class="nav-right">
+    <i class="fa-solid fa-cart-shopping"></i>
+    <i class="fa-regular fa-user"></i>
+    <a href="#" class="signup-btn">Sign Up</a>
+  </div>
+</nav>
+
+<!-- SWAP CONDITIONS SECTION -->
+<section class="swap-conditions">
+  <div class="conditions-container">
+    <h2>Swap Conditions</h2>
+    <div class="conditions-grid">
+      <div class="condition-item">
+        <i class="fas fa-shield-alt"></i>
+        <h3>Hygiene Checked</h3>
+        <p>All items are thoroughly cleaned and sanitized before swapping</p>
+      </div>
+      <div class="condition-item">
+        <i class="fas fa-ban"></i>
+        <h3>No Returns</h3>
+        <p>Once swapped, items cannot be returned. Choose wisely!</p>
+      </div>
+      <div class="condition-item">
+        <i class="fas fa-handshake"></i>
+        <h3>One-Time Swap</h3>
+        <p>Each item can only be swapped once to ensure fair exchange</p>
+      </div>
+      <div class="condition-item">
+        <i class="fas fa-leaf"></i>
+        <h3>Sustainability Focused</h3>
+        <p>Every swap reduces textile waste and promotes circular fashion</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SWAP ITEMS SECTION -->
+<section class="swap-items">
+  <div class="container">
+    <h1>Available for Swap</h1>
+    <p class="subtitle">Browse pre-loved clothing items and exchange them for points or other items</p>
+
+    <div class="items-grid">
+      <!-- Item 1 -->
+      <div class="swap-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1544022613-e87ca75a784a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Vintage Denim Jacket">
+        </div>
+        <div class="card-content">
+          <h3>Vintage Denim Jacket</h3>
+          <div class="swap-points">
+            <span class="points">250 Points</span>
+          </div>
+          <div class="condition-details">
+            <p><strong>Times worn:</strong> 15-20 times</p>
+            <p><strong>Size:</strong> Medium</p>
+            <p><strong>Fabric:</strong> 100% Cotton</p>
+            <p><strong>Condition:</strong> Excellent - Minor fading</p>
+          </div>
+          <div class="emotional-story">
+            <p>"This jacket was my companion during my first solo backpacking trip through Europe. It kept me warm during chilly nights in hostels and witnessed countless adventures and new friendships."</p>
+          </div>
+          <button class="swap-btn" onclick="handleSwap('Vintage Denim Jacket')">Swap Now</button>
+        </div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="swap-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Floral Summer Dress">
+        </div>
+        <div class="card-content">
+          <h3>Floral Summer Dress</h3>
+          <div class="swap-points">
+            <span class="points">180 Points</span>
+          </div>
+          <div class="condition-details">
+            <p><strong>Times worn:</strong> 8-10 times</p>
+            <p><strong>Size:</strong> Small</p>
+            <p><strong>Fabric:</strong> Chiffon</p>
+            <p><strong>Condition:</strong> Very Good - Like new</p>
+          </div>
+          <div class="emotional-story">
+            <p>"I wore this dress to my best friend's wedding last summer. The delicate florals reminded me of the wildflowers we picked as kids. It's been hanging in my closet waiting for another special occasion."</p>
+          </div>
+          <button class="swap-btn" onclick="handleSwap('Floral Summer Dress')">Swap Now</button>
+        </div>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="swap-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1582418702059-97ebafb35d09?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Wool Sweater">
+        </div>
+        <div class="card-content">
+          <h3>Cozy Wool Sweater</h3>
+          <div class="swap-points">
+            <span class="points">200 Points</span>
+          </div>
+          <div class="condition-details">
+            <p><strong>Times worn:</strong> 12-15 times</p>
+            <p><strong>Size:</strong> Large</p>
+            <p><strong>Fabric:</strong> Merino Wool</p>
+            <p><strong>Condition:</strong> Excellent - Soft and warm</p>
+          </div>
+          <div class="emotional-story">
+            <p>"This sweater was a Christmas gift from my grandmother. She knitted it with love and stories of her youth. Wearing it always brings back memories of family gatherings and holiday warmth."</p>
+          </div>
+          <button class="swap-btn" onclick="handleSwap('Cozy Wool Sweater')">Swap Now</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>

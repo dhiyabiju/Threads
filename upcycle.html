@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upcycle - Second Story</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-left">
+    <span class="brand">Second Story</span>
+  </div>
+
+  <ul class="nav-center">
+    <li><a href="index.html">Sustainable Fashion</a></li>
+    <li><a href="swap.html">Swap</a></li>
+    <li><a href="resell.html">Resell</a></li>
+    <li><a href="upcycle.html" class="active">Upcycle</a></li>
+  </ul>
+
+  <div class="nav-right">
+    <i class="fa-solid fa-cart-shopping"></i>
+    <i class="fa-regular fa-user"></i>
+    <a href="#" class="signup-btn">Sign Up</a>
+  </div>
+</nav>
+
+<!-- UPCYCLE CONDITIONS SECTION -->
+<section class="upcycle-conditions">
+  <div class="conditions-container">
+    <h2>Upcycling Service</h2>
+    <div class="conditions-grid">
+      <div class="condition-item">
+        <i class="fas fa-recycle"></i>
+        <h3>Creative Transformation</h3>
+        <p>Turn damaged clothes into beautiful, functional pieces through creative upcycling techniques</p>
+      </div>
+      <div class="condition-item">
+        <i class="fas fa-tools"></i>
+        <h3>Professional Service</h3>
+        <p>Expert artisans transform your pre-loved garments using sustainable methods</p>
+      </div>
+      <div class="condition-item">
+        <i class="fas fa-clock"></i>
+        <h3>2-3 Week Timeline</h3>
+        <p>Quality upcycling takes time. Each piece is carefully crafted to perfection</p>
+      </div>
+      <div class="condition-item">
+        <i class="fas fa-leaf"></i>
+        <h3>Eco-Friendly Process</h3>
+        <p>Zero-waste approach using natural dyes and sustainable materials</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- UPCYCLE ITEMS SECTION -->
+<section class="upcycle-items">
+  <div class="container">
+    <h1>Upcycle Your Clothes</h1>
+    <p class="subtitle">Transform damaged or worn-out garments into unique, sustainable fashion pieces</p>
+
+    <div class="items-grid">
+      <!-- Item 1 -->
+      <div class="upcycle-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Faded Denim Jeans">
+        </div>
+        <div class="card-content">
+          <h3>Faded Denim Jeans</h3>
+          <div class="damage-info">
+            <p><strong>Damage:</strong> Multiple tears and fading</p>
+            <p><strong>Current Value:</strong> $5</p>
+          </div>
+          <div class="upcycle-type">
+            <h4>Upcycling Options:</h4>
+            <ul>
+              <li><strong>Denim Patchwork Bag:</strong> $45</li>
+              <li><strong>Embroidered Wall Art:</strong> $35</li>
+              <li><strong>Custom Denim Skirt:</strong> $55</li>
+            </ul>
+          </div>
+          <div class="upcycle-description">
+            <p>"These well-worn jeans have seen better days but still have so much potential. Perfect for creating a unique patchwork bag or decorative wall art that tells your story."</p>
+          </div>
+          <button class="upcycle-btn" onclick="handleUpcycle('Faded Denim Jeans')">Start Upcycling</button>
+        </div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="upcycle-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1582582494368-986c84ba9e2c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Stained Cotton Shirt">
+        </div>
+        <div class="card-content">
+          <h3>Stained Cotton Shirt</h3>
+          <div class="damage-info">
+            <p><strong>Damage:</strong> Permanent stains and pilling</p>
+            <p><strong>Current Value:</strong> $3</p>
+          </div>
+          <div class="upcycle-type">
+            <h4>Upcycling Options:</h4>
+            <ul>
+              <li><strong>Tie-Dye Tote Bag:</strong> $40</li>
+              <li><strong>Embroidered Pillow Covers:</strong> $30</li>
+              <li><strong>Quilted Coasters Set:</strong> $25</li>
+            </ul>
+          </div>
+          <div class="upcycle-description">
+            <p>"This cotton shirt has some stubborn stains but the fabric is still soft and durable. Ideal for creating colorful tote bags or cozy pillow covers with a vintage charm."</p>
+          </div>
+          <button class="upcycle-btn" onclick="handleUpcycle('Stained Cotton Shirt')">Start Upcycling</button>
+        </div>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="upcycle-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Torn Silk Blouse">
+        </div>
+        <div class="card-content">
+          <h3>Torn Silk Blouse</h3>
+          <div class="damage-info">
+            <p><strong>Damage:</strong> Tears and missing buttons</p>
+            <p><strong>Current Value:</strong> $4</p>
+          </div>
+          <div class="upcycle-type">
+            <h4>Upcycling Options:</h4>
+            <ul>
+              <li><strong>Silk Scarf Collection:</strong> $50</li>
+              <li><strong>Embellished Hair Accessories:</strong> $35</li>
+              <li><strong>Luxury Fabric Bookmarks:</strong> $20</li>
+            </ul>
+          </div>
+          <div class="upcycle-description">
+            <p>"This delicate silk blouse has some tears but the luxurious fabric deserves a second life. Perfect for creating elegant scarves or unique hair accessories."</p>
+          </div>
+          <button class="upcycle-btn" onclick="handleUpcycle('Torn Silk Blouse')">Start Upcycling</button>
+        </div>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="upcycle-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1582582494248-0d3f1a8b8b5e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Pilled Wool Sweater">
+        </div>
+        <div class="card-content">
+          <h3>Pilled Wool Sweater</h3>
+          <div class="damage-info">
+            <p><strong>Damage:</strong> Heavy pilling and thinning</p>
+            <p><strong>Current Value:</strong> $6</p>
+          </div>
+          <div class="upcycle-type">
+            <h4>Upcycling Options:</h4>
+            <ul>
+              <li><strong>Felted Wool Blanket:</strong> $60</li>
+              <li><strong>Wool-Stuffed Pillows:</strong> $45</li>
+              <li><strong>Cozy Arm Warmers:</strong> $30</li>
+            </ul>
+          </div>
+          <div class="upcycle-description">
+            <p>"This wool sweater has developed pills over time but still holds warmth and character. Excellent for felting into blankets or creating stuffed pillows with personality."</p>
+          </div>
+          <button class="upcycle-btn" onclick="handleUpcycle('Pilled Wool Sweater')">Start Upcycling</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
